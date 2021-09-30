@@ -13,7 +13,9 @@ body {
 
 /* spaces */
 
-
+.heading{
+    color:rgb(192, 59, 93);
+}
 
 
 .container {
