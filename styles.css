@@ -11,10 +11,6 @@ body {
 }
 
 
-.heading{
-    color: rgb(175, 81, 117);
-}
-
 /* spaces */
 
 
@@ -57,7 +53,7 @@ body {
 .list-non-bullet {
     list-style: none;
     padding-inline-start: 0px;
-
+    
 }
 
 .list-item-inline {
@@ -75,7 +71,8 @@ body {
 
 .navigation .nav-brand {
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+   
 }
 
 .navigation .nav-pills {
