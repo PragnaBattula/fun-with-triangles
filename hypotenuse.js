@@ -9,8 +9,8 @@ function calulateSumOfSquares(a , b){
 
 function calculateHypotenuse() {
 const sumOfSquares = calulateSumOfSquares(Number(sides[0].value), Number(sides[1].value));
-const lengthOfHypotenuse = Math.sqrt(sumOfSquares);
-outputEl.innerText = "The length of Hypotenuse is " + lengthOfHypotenuse
+const lengthOfHypotenuse = Math.sqrt(sumOfSquares).toFixed(2);
+outputEl.innerText = "The length of Hypotenuse is " + lengthOfHypotenuse;
 }
 
 hypotenuseBtn.addEventListener("click", calculateHypotenuse);
